@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Chart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+    
+        th, td {
+            padding: 15px; /* Increased padding */
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+        }
+    
+        th {
+            background-color: #4CAF50; /* Header color */
+            color: white; /* Text color */
+            font-family: 'Georgia'; /* Different font for header */
+        }
+    
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Zebra striping */
+        }
+    
+        tr:hover {
+            background-color: #ddd; /* Hover effect */
+        }
+    
+        th:first-child, td:first-child {
+            border-left: 1px solid #ddd;
+        }
+    
+        tr:last-child td {
+            border-bottom: none;
+        }
+    
+        @media (max-width: 768px) {
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+    
+            th, td {
+                padding: 8px;
+                font-size: 14px;
+                display: block;
+            }
+    
+            th:first-child, td:first-child {
+                border-left: none;
+            }
+    
+            tr {
+                margin-bottom: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+    
+            td {
+                flex: 1;
+                padding: 5px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h2>Diet Chart for Rishika Di</h2>
+
+<table>
+    <tr>
+        <th></th>
+        <th>6:30 AM</th>
+        <th>8:00 AM</th>
+        <th>12:00 PM</th>
+        <th>2:00 PM</th>
+        <th>2:10 PM</th>
+        <th>4:00 PM</th>
+        <th>5:30 PM</th>
+        <th>8:50 PM</th>
+        <th>9:00 PM</th>
+    </tr>
+    <tr>
+        <td>Day 1</td>
+        <td>Cucumber Detox Water (1 glass)</td>
+        <td>Oats Porridge in Skimmed Milk (1 bowl)<br>Mixed Nuts (25 grams)</td>
+        <td>Skimmed Milk Paneer (100 grams)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Dal(1 katori)<br>Gajar Matar Sabzi (1 katori)<br>Roti (1 roti/chapati)</td>
+        <td>Cut Fruits (1 cup)<br>Buttermilk (1 glass)</td>
+        <td>Tea with Less Sugar and Milk (1 teacup)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Dal (1 katori)<br>Lauki Sabzi (1 katori)<br>Roti (1 roti/chapati)</td>
+    </tr>
+    <!-- Add other rows similarly -->
+    <!-- Day 2 -->
+    <tr>
+        <td>Day 2</td>
+        <td>Cucumber Detox Water (1 glass)</td>
+        <td>Egg Bhurji (2 eggs)<br>Mixed Vegetable Stuffed Roti (2 pieces)</td>
+        <td>Chicken Curry (100 grams)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Lentil Curry (0.75 bowl)<br>Methi Rice (0.5 katori)</td>
+        <td>Apple (0.5 small)<br>Buttermilk (1 glass)</td>
+        <td>Coffee with Milk and Less Sugar (0.5 tea cup)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Fish Fry (100 grams)<br>Roti (1 roti/chapati)<br>Green Chutney (2 tablespoon)</td>
+    </tr>
+    <!-- Day 3 -->
+    <tr>
+        <td>Day 3</td>
+        <td>Cucumber Detox Water (1 glass)</td>
+        <td>Skim Milk Yoghurt (1 cup)<br>Multigrain Toast (2 toast)</td>
+        <td>Skimmed Milk Paneer (100 grams)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Sauteed Vegetables with Paneer (1 katori)<br>Roti (1 roti/chapati)</td>
+        <td>Banana (0.5 small)<br>Buttermilk (1 glass)</td>
+        <td>Tea with Less Sugar and Milk (1 teacup)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Lentil Curry (0.75 bowl)<br>Methi Rice (0.5 katori)</td>
+    </tr>
+    <!-- Day 4 -->
+    <tr>
+        <td>Day 4</td>
+        <td>Cucumber Detox Water (1 glass)</td>
+        <td>Fruit and Nuts Yogurt Smoothie (0.75 glass)<br>Egg Omelette (1 serve)</td>
+        <td>Chicken Salad (1 katori)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Green Gram Whole Dal Cooked (1 katori)<br>Bhindi sabzi (1 katori)</td>
+        <td>Orange (1 fruit)<br>Buttermilk (1 glass)</td>
+        <td>Coffee with Milk and Less Sugar (0.5 teacup)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Palak Chole (1 bowl)<br>Steamed Rice (0.5 katori) <br> Grilled Fish (100 grams)</td>
+    </tr>
+    <!-- Day 5 -->
+    <tr>
+        <td>Day 5</td>
+        <td>Cucumber Detox Water (1 glass)</td>
+        <td>Skimmed Milk (1 glass)<br>Peas Poha (1.5 katori)</td>
+        <td>Skimmed Milk Paneer (100 grams)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Low Fat Paneer Curry (1 katori)<br>Missi Roti (1 roti)</td>
+        <td>Papaya (1 cup)<br>Buttermilk (1 glass)</td>
+        <td>Tea with Less Sugar and Milk (1 teacup)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Curd (1.5 katori)<br>Aloo Baingan Tamatar Ki Sabzi (1 katori)<br>Roti (1 roti/chapati)</td>
+    </tr>
+    <!-- Day 6 -->
+    <tr>
+        <td>Day 6</td>
+        <td>Cucumber Detox Water (1 glass)</td>
+        <td>Mixed Sambar (1 bowl)<br>Idli (2 idli)</td>
+        <td>Chicken Curry (100 grams)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Curd (1.5 katori)<br>Aloo Baingan Tamatar Ki Sabzi (1 katori)</td>
+        <td>Cut Fruits (1 cup)<br>Buttermilk (1 glass)</td>
+        <td>Coffee with Milk and Less Sugar (0.5 tea cup)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Green Gram Whole Dal Cooked (1 katori)<br>Bhindi sabzi (1 katori)<br>Roti (1 roti/chapati) <br>Grilled Fish (100 grams)</td>
+    </tr>
+    <!-- Day 7 -->
+    <tr>
+        <td>Day 7</td>
+        <td>Cucumber Detox Water (1 glass)</td>
+        <td>Besan Chilla (2 cheela)<br>Green Garlic Chutney (3 tablespoon)</td>
+        <td>Skimmed Milk Paneer (100 grams)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Palak Chole (1 bowl)<br>Steamed Rice (0.5 katori)</td>
+        <td>Apple(0.5 small)<br>Buttermilk (1 glass)</td>
+        <td>Tea with Less Sugar and Milk (1 teacup)</td>
+        <td>Mixed Vegetable Salad (1 katori)</td>
+        <td>Low Fat Paneer Curry (1 katori)<br>Missi Roti (1 roti)</td>
+    </tr>
+</table>
+
+</body>
+</html>
